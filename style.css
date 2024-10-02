@@ -6,16 +6,18 @@
 
 header {
     background-color: black;
-    padding-top: 67px;    
+    padding-top: 85px;    
 }
 
 .main {
+    height: 78vh;
+
     /* display: flex;
     flex-wrap: nowrap; */    
 }
 
 .left-pane {
-    height: 85vh;
+    height: 78vh;
     position: relative;
     width: 40%;
     float: left;
@@ -23,7 +25,7 @@ header {
 
 .picture {
     /* position: absolute;  */
-    height: 85vh;
+    height: 78vh;
     width: 100%;  
 }
 
@@ -73,7 +75,7 @@ a:link {
 .data {
     background-color: white;
     padding: 8px 20px 15px 20px;
-    box-shadow: 0 8px 6px -6px rgb(214, 212, 212);
+    box-shadow: 0 8px 6px -6px rgb(176, 173, 173);
 }
 
 .form {
@@ -82,13 +84,15 @@ a:link {
     flex-wrap: nowrap; */
 }
 
-.name {
-    /* display: flex; */    
+.name, .contact, .password_check {
+    display: inline-block;  
+    padding-right: 20px;
+
 }
 
 .form_submit {
     background-color: rgb(249, 248, 248);
-    padding: 10px 20px 30px 20px;
+    padding: 20px 20px 30px 20px;
     font-size: .8rem;
 }
 
@@ -103,5 +107,5 @@ button {
 
 footer {
     background-color: black;
-    padding-bottom: 70px;    
+    padding-bottom: 85px;    
 }
