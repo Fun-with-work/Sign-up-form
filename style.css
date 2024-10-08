@@ -18,14 +18,14 @@ header {
     position: relative;
     width: 40%;
     float: left;
-    background-image: url(halie-west-bTzpau9mKT4-unsplash.jpg);
+    background-image: url(The\ Prancing\ Pony.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .logo_background {
-    background-color: rgba(2, 2, 2, 0.448);
+    background-color: rgba(214, 211, 211, 0.448);
     width: 100%;
     height: 12vh;
     margin-top: 15vh;
@@ -39,14 +39,15 @@ header {
 }
 
 .logo {
-    width: 8vh;
+    width: 12vh;
     height: auto;
 }
 
 .logo_name {
-    color: white;
-    font-size: 3rem;
-    font-family: cursive, sans-serif;
+    color: rgb(12, 12, 12);
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .credit_container {
@@ -59,6 +60,11 @@ a:link {
     color: white;
 }
 
+a:visited {
+    color: rgb(211, 243, 151);
+}
+
+
 .credit {
     color: white;
 
@@ -69,21 +75,21 @@ a:link {
 
 
 .right_pane {
-    background-color: rgb(249, 248, 248);
+    background-color: rgb(234, 222, 205);
     display: flex;
     flex-flow: column wrap;
     height: 85vh;
 }
 
 .banner {
-    background-color: rgb(249, 248, 248);
+    background-color: rgb(234, 222, 205);
     padding: 95px 20px 25px 20px;
     font-weight: bold;
     font-size: .9rem;
 }
 
 .data {
-    background-color: white;
+    background-color: rgb(250, 242, 233);
     padding: 8px 20px 15px 20px;
     box-shadow: 0 8px 6px -6px rgb(176, 173, 173);
 }
@@ -106,13 +112,13 @@ input:invalid {
 
 input:focus {
     border: 1px solid rgb(90, 90, 236);
-    background-color: rgba(177, 248, 224, 0.625);
+    background-color: rgba(245, 245, 220, 0.849);
     box-shadow: 0 8px 6px -6px rgb(176, 173, 173);
     ;
 }
 
 .form_submit {
-    background-color: rgb(249, 248, 248);
+    background-color: rgb(234, 222, 205);
     padding: 20px 20px 30px 20px;
     font-size: .8rem;
 }
@@ -120,7 +126,7 @@ input:focus {
 button {
     font-size: .6rem;
     padding: 7px 25px;
-    background-color: rgb(85, 112, 85);
+    background-color: rgb(220, 146, 77);
     color: white;
     border-radius: 5px;
     border-color: rgb(249, 248, 248);
